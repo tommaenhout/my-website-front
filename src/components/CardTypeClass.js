@@ -1,4 +1,4 @@
-import {Card, Button,Container} from 'react-bootstrap'
+import {Card, Button} from 'react-bootstrap'
 
 function CardTypeClass (props) {
  
