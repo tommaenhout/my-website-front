@@ -6,6 +6,7 @@ import useInput from "../hooks/use-input";
 const isNotEmpty = (value) => value.trim() !== "";
 const isEmail = (value) => value.includes("@");
 //control shift f to format code
+//https://www.youtube.com/watch?v=NgWGllOjkbs
 function FormPage() {
   const {
     value: nameValue,
