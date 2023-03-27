@@ -12,7 +12,7 @@ import {AiOutlineTeam} from "react-icons/ai";
 export const cardTypeClassesGroup =
     {
         title: "Online group classes for beginners",
-        body: "Classes for groups up to 5 students. The classes are organized in the weekend. 2 x 2 hours of classes. The students are divided in groups according to their level.",
+        body: "The classes are organized in the weekend. 2 x 2 hours of classes. The classes are completely personalized. ",
         buttonText: "Check prices and availability",
         key: "2"
     }

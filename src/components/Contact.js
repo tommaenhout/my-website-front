@@ -5,7 +5,7 @@ console.log(process.env)
 function Contact () {
 	function sendEmail (e) {
 		e.preventDefault();
-	
+		//add
 		emailjs.sendForm(process.env.REACT_APP_emailjs_serviceid, process.env.REACT_APP_emailjs_templateid, e.target, process.env.REACT_APP_emailjs_userid)
 			.then((result) => {
 				console.log(result.text);

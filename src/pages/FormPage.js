@@ -55,7 +55,7 @@ function FormPage() {
     }
 
     console.log('Submitted!');
-    console.log(nameIsValid, emailIsValid, nativeLanguageIsValid, countryIsValid);
+    console.log(nameValue, emailValue, nativeLanguageValue, countryValue);
 
     resetName();
     resetEmail();

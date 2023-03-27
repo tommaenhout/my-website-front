@@ -18,12 +18,13 @@ function LoginPage () {
     // validation
     console.log(enteredUsername, enteredPassword);
 
-    apiConnection.post('/', {"email": enteredUsername, "password": enteredPassword})
+    apiConnection.post('/login', {"email": enteredUsername, "password": enteredPassword})
     .then(function(response) {
-      alert("logged in");
+      alert("Welcome " + response.data.user.email);
     })
     .catch(function(error) {
-      console.log(error);
+      const errorMessage = error.response.data;
+      alert(errorMessage)
     });
     /* let url = "http://localhost:4000/"
     fetch(url, {
